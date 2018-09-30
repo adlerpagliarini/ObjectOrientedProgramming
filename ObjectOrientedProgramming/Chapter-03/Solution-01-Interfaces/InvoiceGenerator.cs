@@ -6,9 +6,9 @@ namespace ObjectOrientedProgramming.Solution_01
 {
     public class InvoiceGenerator
     {
-        protected List<IActionAfterInvoiceGenerator> _actions;
+        private readonly IList<IActionAfterInvoiceGenerator> _actions;
 
-        public InvoiceGenerator(List<IActionAfterInvoiceGenerator> actions)
+        public InvoiceGenerator(IList<IActionAfterInvoiceGenerator> actions)
         {
             _actions = actions;
         }

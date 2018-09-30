@@ -13,9 +13,11 @@ namespace ObjectOrientedProgramming.Tests
         [SetUp]
         public void Initialize()
         {
-            var actions = new List<IActionAfterInvoiceGenerator>();
-            actions.Add(new InvoiceDAO());
-            actions.Add(new SendEmail());
+            var actions = new List<IActionAfterInvoiceGenerator>
+            {
+                new InvoiceDAO(),
+                new SendEmail()
+            };
             _invoiceGenerator = new InvoiceGenerator(actions);
         }
 

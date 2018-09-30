@@ -14,7 +14,7 @@ namespace ObjectOrientedProgramming.Tests
         public void Initialize()
         {
             _invoiceGenerator = new InvoiceGenerator();
-            _invoiceGenerator.OnInvoiceGenerated += new InvoiceDAO().Execute;
+            _invoiceGenerator.OnInvoiceGenerated = new InvoiceDAO().Execute;
             _invoiceGenerator.OnInvoiceGenerated += new SendEmail().Execute;
         }
 

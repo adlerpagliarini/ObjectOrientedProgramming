@@ -12,6 +12,9 @@
 - Solution-02 Using EventHandlers
 - Solution-03 Using Actions
 
+#Chapter-04 - Open Closed
+- Example using open closed principle and Unit Test with MOQ 
+
 # References
  - Orientação a Objetos e SOLID para Ninjas
 <img src="https://github.com/adlerpagliarini/ObjectOrientedProgramming/blob/master/oop-solid-book.png" />
