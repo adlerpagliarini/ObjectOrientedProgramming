@@ -15,6 +15,11 @@
 #Chapter-04 - Open Closed
 - Example using open closed principle and Unit Test with MOQ 
 
+#Chapter-05 - Encapsulation and propagation of changes
+- Tell, Don't ask - If you need to ask with a IF statment what you should to do when a object has a value, probably probably you'll be hurting the encapsulation principle. The rule of implementation must be encapsulatated on a method of this object.
+- "Demeter's Law" - If you have to chain methods, encapsulate this behavior in the class which really needs to use this behavior and expose just one method, doing it you'll have less code to modify if necessery a change in the future.
+
+
 # References
  - Orientação a Objetos e SOLID para Ninjas
 <img src="https://github.com/adlerpagliarini/ObjectOrientedProgramming/blob/master/oop-solid-book.png" />
