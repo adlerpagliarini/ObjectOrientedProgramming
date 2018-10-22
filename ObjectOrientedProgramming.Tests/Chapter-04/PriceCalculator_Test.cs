@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ObjectOrientedProgramming.Tests
+namespace ObjectOrientedProgramming.Tests.Chapter_04
 {
     [TestFixture]
-    public class PriceCalculator_Test
+    public class InvoiceGenerator_Test
     {
         [Test]
         public void Calculate_ShouldCalculateDiscountAndDelivery()

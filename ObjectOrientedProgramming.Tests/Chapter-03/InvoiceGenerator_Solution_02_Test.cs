@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ObjectOrientedProgramming.Tests
+namespace ObjectOrientedProgramming.Tests.Chapter_03
 {
     [TestFixture]
     public class InvoiceGenerator_Solution_02_Test

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ObjectOrientedProgramming.Tests
+namespace ObjectOrientedProgramming.Tests.Chapter_02
 {
     public class SalaryCalculator_Solution_03_Test
     {

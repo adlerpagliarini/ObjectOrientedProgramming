@@ -26,6 +26,10 @@ For example, if the main class knows how to work with 1 to 100, your son's pre c
 However, if the main class knows how to return 1 to 100, your child's the pos condition must be between these values, and not bigger. The reason is, if some class in the system already is using the abstraction of the main class, it's wont have a problem because it's already prepared to work with the max value.
 - With composition it's easier to change the implementation while receiving it on constructor than just implementing the methods from a interface or just using the inherited methods.
 
+#Chapter-07 - Thin Interfaces and ISP
+- Examples for create cohesive interfaces and how to simplify parameters into methods.
+	
+
 # References
  - Orientação a Objetos e SOLID para Ninjas
 <img src="https://github.com/adlerpagliarini/ObjectOrientedProgramming/blob/master/oop-solid-book.png" />
