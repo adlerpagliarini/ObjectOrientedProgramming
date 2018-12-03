@@ -28,7 +28,10 @@ However, if the main class knows how to return 1 to 100, your child's the pos co
 
 #Chapter-07 - Thin Interfaces and ISP
 - Examples for create cohesive interfaces and how to simplify parameters into methods.
-	
+
+#Chapter-08 - Consistency, small and big objects
+- Builder and Factory to create valide objects
+- Tiny Types, Immutable types
 
 # References
  - Orientação a Objetos e SOLID para Ninjas
